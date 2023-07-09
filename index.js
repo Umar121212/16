@@ -1,6 +1,8 @@
-let students = ['Umar', 'Danil', 'Vsevolod', 'John', 'Charley'];
-let newStudent = prompt("Введите ваше имя студента:");
+let students =[]
+let countStudents = Number(prompt('Сколько студентов в группе?'));
+let idStudents = prompt('Введите ваше имя:')
 
-students.push(newStudent);
+students.push(countStudents);
+students.push(idStudents);
 
-alert("Вы последний студент в группе: " + students[students.length - 1]);
+alert(`Ваш номер ${countStudents } ${idStudents}`)
